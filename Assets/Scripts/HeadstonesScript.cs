@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class HeadstonesScript : MonoBehaviour
 {
-    private readonly int SCENE_CHAD = 2;
     private readonly float POPUP_THRESHOLD = 5.0f;
     [SerializeField] private Transform player;
     [SerializeField] private Transform chadGrave;
@@ -27,7 +26,7 @@ public class HeadstonesScript : MonoBehaviour
             }
             if(Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene(SCENE_CHAD);
+                SceneManager.LoadScene("Chad");
             }
         }
     }

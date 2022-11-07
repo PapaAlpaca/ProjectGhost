@@ -354,6 +354,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraScript.cs"
 "Assets/Scripts/HeadstonesScript.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PlayerScript.cs"
 -langversion:9.0
 
